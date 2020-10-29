@@ -16,4 +16,8 @@
       <ProjectReference Include="..\yogaAshram\yogaAshram.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="ClientServiceTest.cs" />
+    </ItemGroup>
+
 </Project>

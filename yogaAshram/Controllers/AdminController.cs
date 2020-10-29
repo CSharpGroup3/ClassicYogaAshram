@@ -77,8 +77,5 @@ namespace yogaAshram.Controllers
                  dateTime = new DateTime(dateTime.Year, Convert.ToInt32(month), 1);
              return View(dateTime);
          }
-
-
-         
     }
 }
